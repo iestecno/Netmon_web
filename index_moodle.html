@@ -9,60 +9,133 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <!-- <link rel="stylesheet" type="text/css" href="css/app.css"> -->
 
-    <title>Netmon_1</title>
+
+    <style>
+        #header {
+            /* background: url("imgs/header.jpeg"); */
+            background: url("imgs/header.jpeg") center center / cover no-repeat;
+        }
+    </style>
+
+    <title>Netmon Moodle</title>
 </head>
 
-<body style="background-image: url('imgs/buildings.jpg'); background-position: center;">
-    <div class="container">
-        <h1 class="text-center display-3">Netmon</h1>
-    </div>
-    <nav class="navbar navbar-expand-md navbar-dark bg-info">
-        <a class="navbar-brand" href="http://www.netmon.es" target="_blank">Original web</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      dropup
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                  </li>
-            </ul>
+<body>
+    <nav class="navbar bg-dark navbar-dark">
+        <div class="container">
+            <a href="" class="navbar-brand"><i class="fas fa-binoculars mr-2"></i> Netmon Moodle</a>
         </div>
-        <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
-        </form>
     </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="content text-center text-light pt-5 mt-5">
-                    <h1>Purrfect Match</h1>
-                    <h3>The Only Human-Feline Dating App</h3>
-                    <hr>
-                    <button class="btn btn-default btn-lg"><i class="fa fa-paw fa-fw"></i> Get Started!</button>
+
+    <section id="header" class="jumbotron text-center">
+        <h1 class="display-3">Aula Virtual</h1>
+        <p class="lead">Cursos Moodle para docencia</p>
+        <a href="" class="btn btn-primary">Technology</a>
+        <a href="" class="btn btn-success">Computers</a>
+    </section>
+
+    <section id="gallery">
+       <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs\Plasma_ball.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">1º ESO</h5>
+                            <p class="card-text">Ofimática, Programación, Electricidad...</p>
+                            <a href="" class="btn btn-outline-success btn-sm">Acceder</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/antenna.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">2º ESO</h5>
+                            <p class="card-text">Algoritmos, Estructuras, Mecanismos... </p>
+                            <a href="" class="btn btn-outline-success btn-sm">Acceder</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/arduino.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">3º ESO</h5>
+                            <p class="card-text">Diseño 3D, Electrónica básica, Arduino... </p>
+                            <a href="" class="btn btn-outline-success btn-sm">Acceder</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs\mig_21.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">4º ESO</h5>
+                            <p class="card-text">Electrónica Industrial, Instalaciones, Microcontroladores...</p>
+                            <a href="http://www.netmon.es/moodle/course/view.php?id=25" class="btn btn-outline-success btn-sm">Acceder</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/turbina.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">T. Industrial I</h5>
+                            <p class="card-text">Energías, Materiales, Mecanismos... </p>
+                            <a href="http://www.netmon.es/moodle/course/view.php?id=23" class="btn btn-outline-success btn-sm">Acceder</a>                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/acelerador.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">T. Industrial II</h5>
+                            <p class="card-text">Motores, Electronica Digital... </p>
+                            <a href="" class="btn btn-outline-success btn-sm">Acceder</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs\drop.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyectos 4ºESO</h5>
+                            <p class="card-text">Electrónica Industrial, Instalaciones, Microcontroladores...</p>
+                            <a href="http://www.netmon.es/moodle/course/view.php?id=25" class="btn btn-outline-success btn-sm">Acceder</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/turbina.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">T. Industrial I</h5>
+                            <p class="card-text">Energías, Materiales, Mecanismos... </p>
+                            <a href="http://www.netmon.es/moodle/course/view.php?id=23" class="btn btn-outline-success btn-sm">Acceder</a>                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/acelerador.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">T. Industrial II</h5>
+                            <p class="card-text">Motores, Electronica Digital... </p>
+                            <a href="" class="btn btn-outline-success btn-sm">Acceder</a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+       </div>
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
