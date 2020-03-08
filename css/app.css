@@ -1,5 +1,5 @@
 body {
-    background: url("../imgs/sea.jpg");
+    background: url("../imgs/sea_2.jpg");
     background-size: cover;
     background-position: center; 
 }
@@ -25,6 +25,7 @@ h1 {
                  0px 8px 13px rgba(0,0,0,0.1),
                  0px 18px 23px rgba(0,0,0,0.1);
 }
+
 
 hr {
     width: 400px;
